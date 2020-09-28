@@ -10,7 +10,7 @@ type AlternativeMessageType = {
 function AlternativeMessage(props: AlternativeMessageType) {
 	return (
 		<div className={form.container}>
-			<form className={form.form}>
+			<div className={form.form}>
 				<div className={form.form__upload}>
 					<button className={form.form__btn}>
 						<img className={form.paperclip} src={props.clipPaperIcon}/>
@@ -21,7 +21,7 @@ function AlternativeMessage(props: AlternativeMessageType) {
 					<button className={form.form__send}>
 						<img className={form.send__icon} src={props.sendBtnIcon}/>
 					</button>
-			</form>
+			</div>
 		</div>
 	);
 }
