@@ -1,23 +1,25 @@
 import React, {useState} from "react";
 import Affairs from "./Affairs";
 import hw from './HW2.module.css';
+import AlternativeAffairs from "./AlternativeAffairs";
+import {v1} from "uuid";
 
 // types
 export type AffairPriorityType = 'high' | 'middle' | 'low';
 export type FilterType = "all" | AffairPriorityType;
 export type AffairType = {
-	_id: number
+	_id: string
 	name: string
 	priority: string
 };
 
 // constants
 const defaultAffairs: Array<AffairType> = [
-	{_id: 1, name: "React", priority: "high"},
-	{_id: 2, name: "anime", priority: "low"},
-	{_id: 3, name: "games", priority: "low"},
-	{_id: 4, name: "work", priority: "high"},
-	{_id: 5, name: "html & css", priority: "middle"},
+	{_id: v1(), name: "React", priority: "high"},
+	{_id: v1(), name: "anime", priority: "low"},
+	{_id: v1(), name: "games", priority: "low"},
+	{_id: v1(), name: "work", priority: "high"},
+	{_id: v1(), name: "html & css", priority: "middle"},
 ];
 
 // pure helper functions
@@ -35,7 +37,7 @@ export const filterAffairs = (affairs: Array<AffairType>, filter: FilterType): A
 	return  filteredAffairs;
 }
 
-export const deleteAffair = (affairs: Array<AffairType>, _id: number): Array<AffairType> => {
+export const deleteAffair = (affairs: Array<AffairType>, _id: string): Array<AffairType> => {
 	let filteredTasks = affairs.filter(affair => affair._id !== _id);
 	return filteredTasks;
 }
@@ -46,7 +48,18 @@ function HW2() {
 	const [filter, setFilter] = useState<FilterType>("all");
 
 	const filteredAffairs = filterAffairs(affairs, filter);
-	const deleteAffairCallback = (_id: number) => setAffairs(deleteAffair(affairs, _id)); // need to fix any
+	const deleteAffairCallback = (_id: string) => setAffairs(deleteAffair(affairs, _id));
+
+	const addNewTask = (title: string) => {
+		let templateNewOfAffair: AffairType = {
+			_id: v1(),
+			name: title,
+			priority: 'low'
+		}
+
+		const newArrayOfAffairs = [templateNewOfAffair, ...affairs];
+		setAffairs(newArrayOfAffairs);
+	}
 
 	return (
 		<div className={hw.wrapper}>
@@ -58,8 +71,9 @@ function HW2() {
 				deleteAffairCallback={deleteAffairCallback}
 			/>
 
-			{/*для личного творчества, могу проверить*/}
-			{/*<AlternativeAffairs/>*/}
+			<AlternativeAffairs
+				addNewTask={addNewTask}
+			/>
 		</div>
 	);
 }

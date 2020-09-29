@@ -1,9 +1,34 @@
-import React from "react";
+import React, {ChangeEvent, useState} from "react";
+import alt from './AlternativeAffairs.module.css';
 
-function AlternativeAffairs() {
+
+type AlternativeAffairs = {
+  addNewTask: (title: string) => void
+}
+
+
+function AlternativeAffairs(props: AlternativeAffairs) {
+
+  const [newAffairTitle, setNewAffairTitle] = useState('');
+
+
+  const onChangeInputHandler = (event: ChangeEvent<HTMLInputElement>) => {
+    setNewAffairTitle(event.currentTarget.value);
+  }
+
+  const onClickHandler = () => {
+    props.addNewTask(newAffairTitle);
+    setNewAffairTitle('');
+  }
+
+
     return (
-        <div>
-
+        <div className={alt.wrapper}>
+            <input autoFocus={true}
+                   value={newAffairTitle}
+                   onChange={onChangeInputHandler}
+            />
+            <button onClick={onClickHandler}>Add</button>
         </div>
     );
 }
