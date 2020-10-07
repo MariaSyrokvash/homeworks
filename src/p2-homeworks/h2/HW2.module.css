@@ -1,0 +1,10 @@
+.wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding-bottom: 20px;
+    margin: 0 auto;
+}

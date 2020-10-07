@@ -1,0 +1,31 @@
+.affair {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  border: 1px dashed lavender;
+}
+
+.affair:hover {
+  background-color: aliceblue;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  font-weight: bold;
+  height: 20px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: firebrick;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.name {
+  padding-left: 10px;
+}
