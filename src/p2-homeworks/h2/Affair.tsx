@@ -14,6 +14,7 @@ function Affair(props: AffairPropsType) {
 	return (
 		<div data-id={taskName._id} className={affair.affair}>
 			<p className={affair.name}>{taskName.name}</p>
+      <p className={affair.priority}>{taskName.priority}</p>
 			<button className={affair.btn}
 							onClick={() => {props.deleteAffairCallback(taskName._id)}}>
 				X

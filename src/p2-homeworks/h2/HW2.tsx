@@ -10,7 +10,7 @@ export type FilterType = "all" | AffairPriorityType;
 export type AffairType = {
 	_id: string
 	name: string
-	priority: string
+	priority:  AffairPriorityType
 };
 
 // constants
