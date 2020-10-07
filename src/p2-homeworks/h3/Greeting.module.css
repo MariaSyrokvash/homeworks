@@ -1,0 +1,37 @@
+.someClass {
+
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.text {
+    font-size: 15px;
+    color: crimson;
+}
+
+.btn {
+    padding: 9px;
+    border-radius: 5px;
+}
+
+input {
+    height: 25px;
+    border-radius: 5px;
+}
+
+.total {
+    color: hotpink;
+    font-weight: bold;
+    font-size: 65px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.wrap {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
