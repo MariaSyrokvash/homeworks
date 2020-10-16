@@ -1,0 +1,14 @@
+.wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+    color: palevioletred;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

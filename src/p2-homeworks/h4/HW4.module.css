@@ -1,0 +1,24 @@
+.blue {
+  border-bottom: 5px solid blue;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: paleturquoise;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+.wrap {
+  padding-bottom: 50px;
+}

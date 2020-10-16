@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  margin: 0 auto;
+  min-width: 418px;
+  min-height: 25px;
+}
+
+
+input {
+  flex-grow: 1;
+  outline: none;
+  border: 3px solid paleturquoise;
+  cursor: pointer;
+}
+
+button {
+  background-color: paleturquoise;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

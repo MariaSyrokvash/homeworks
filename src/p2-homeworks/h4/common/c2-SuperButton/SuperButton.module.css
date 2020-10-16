@@ -1,0 +1,12 @@
+.default {
+    background-color: greenyellow;
+}
+
+.red {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: paleturquoise;
+    padding: 10px;
+    border-radius: 10px;
+}
+
