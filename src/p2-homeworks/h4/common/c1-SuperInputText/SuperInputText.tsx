@@ -38,15 +38,9 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
 		&& onEnter(); // то вызвать его
 	}
 
-	console.log(restProps);
-
 	const finalSpanClassName = `${s.error} ${spanClassName ? spanClassName : ""}`;
-	const finalInputClassName = `${s.errorInput} ${className} ${s.superInput}`; // need to fix with (?:) and s.superInput
+	const finalInputClassName = `${error ? s.errorInput : s.superInput} ${className}`;// need to fix with (?:) and s.superInput
 
-	console.log(finalInputClassName);
-
-	console.log(error)
-	console.log(spanClassName)
 	return (
 		<>
 			<input
