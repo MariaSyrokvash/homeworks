@@ -5,6 +5,10 @@
 }
 
 .title {
-    padding-bottom: 20px;
-    margin: 0 auto;
+    font-weight: bold;
+    color: palevioletred;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }

@@ -74,6 +74,7 @@ function HW2() {
 			<AlternativeAffairs
 				addNewTask={addNewTask}
 			/>
+			<hr/>
 		</div>
 	);
 }

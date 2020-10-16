@@ -56,7 +56,7 @@ function HW4() {
 				</SuperCheckbox>
 			</div>
 
-			<hr/>
+
 			{/*для личного творчества, могу проверить*/}
 			{/*<AlternativeSuperInputText/>*/}
 			{/*<AlternativeSuperButton/>*/}
