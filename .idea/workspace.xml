@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h3/Greeting.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c1-SuperInputText/SuperInputText.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602073463390</updated>
       <workItem from="1602073465982" duration="293000" />
+      <workItem from="1603714162023" duration="73000" />
     </task>
     <servers />
   </component>
