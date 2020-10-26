@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MariaSyrokvash/homeworks.git/static/css/main.90bbe944.chunk.css",
+    "main.js": "/MariaSyrokvash/homeworks.git/static/js/main.9364ce17.chunk.js",
+    "main.js.map": "/MariaSyrokvash/homeworks.git/static/js/main.9364ce17.chunk.js.map",
+    "runtime-main.js": "/MariaSyrokvash/homeworks.git/static/js/runtime-main.ab029152.js",
+    "runtime-main.js.map": "/MariaSyrokvash/homeworks.git/static/js/runtime-main.ab029152.js.map",
+    "static/js/2.23d4b5d0.chunk.js": "/MariaSyrokvash/homeworks.git/static/js/2.23d4b5d0.chunk.js",
+    "static/js/2.23d4b5d0.chunk.js.map": "/MariaSyrokvash/homeworks.git/static/js/2.23d4b5d0.chunk.js.map",
+    "index.html": "/MariaSyrokvash/homeworks.git/index.html",
+    "precache-manifest.103a433f0ee334f8a6a9370f2213a590.js": "/MariaSyrokvash/homeworks.git/precache-manifest.103a433f0ee334f8a6a9370f2213a590.js",
+    "service-worker.js": "/MariaSyrokvash/homeworks.git/service-worker.js",
+    "static/css/main.90bbe944.chunk.css.map": "/MariaSyrokvash/homeworks.git/static/css/main.90bbe944.chunk.css.map",
+    "static/js/2.23d4b5d0.chunk.js.LICENSE.txt": "/MariaSyrokvash/homeworks.git/static/js/2.23d4b5d0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab029152.js",
+    "static/js/2.23d4b5d0.chunk.js",
+    "static/css/main.90bbe944.chunk.css",
+    "static/js/main.9364ce17.chunk.js"
+  ]
+}
