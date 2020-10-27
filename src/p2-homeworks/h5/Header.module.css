@@ -1,0 +1,18 @@
+.link {
+  display: flex;
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.active {
+  color: #08ffff;
+}

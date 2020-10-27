@@ -1,6 +1,6 @@
 .title {
   font-weight: bold;
-  color: #74b9ff;
+  color: #08ffff;
   text-align: center;
   font-size: 30px;
   text-transform: uppercase;
@@ -9,5 +9,6 @@
 
 .App {
   padding: 0 50px;
-  background-color: #eee5;
+  color: white;
+  /*background-color: #eee5;*/
 }

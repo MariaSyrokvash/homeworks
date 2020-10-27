@@ -2,13 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/NavBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/NavBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/SidebarData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior_Plus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/error.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h1/AlternativeMessage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h1/AlternativeMessage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/HW4.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c3-SuperCheckbox/SuperCheckbox.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/HW5.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Error404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Error404.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -27,7 +55,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h5" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -37,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h5" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h1" />
     </key>
   </component>
@@ -52,6 +82,8 @@
       <workItem from="1603714162023" duration="138000" />
       <workItem from="1603714379678" duration="32000" />
       <workItem from="1603714478344" duration="54000" />
+      <workItem from="1603739284748" duration="6384000" />
+      <workItem from="1603797940173" duration="4404000" />
     </task>
     <servers />
   </component>
@@ -59,21 +91,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1603715199368">
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603739489406">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603715199368" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1603715199367">
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603739489406" />
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1603716905337">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603715199367" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1603715199364">
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603716905337" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1603716905336">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603715199364" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1603715199367">
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603716905336" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1603716905335">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603715199367" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603716905335" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1603716905337">
+      <screen x="0" y="22" width="1440" height="798" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603716905337" />
+    <state x="412" y="176" width="615" height="490" key="find.popup" timestamp="1603745700650">
+      <screen x="0" y="22" width="1440" height="798" />
+    </state>
+    <state x="412" y="176" width="615" height="490" key="find.popup/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603745700650" />
   </component>
 </project>

@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+* {
+  color: white;
+}
+
 hr {
   opacity: 0.1;
   margin: 0;
