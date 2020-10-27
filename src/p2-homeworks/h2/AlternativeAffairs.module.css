@@ -11,7 +11,10 @@ input {
   outline: none;
   border: 3px solid paleturquoise;
   cursor: pointer;
+  background-color: #181828;
+  color: white;
 }
+
 
 button {
   background-color: paleturquoise;

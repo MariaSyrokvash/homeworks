@@ -7,10 +7,7 @@ import hw from '../../h2/HW2.module.css';
 function Junior_Plus() {
 	return (
 		<div>
-			<p className={hw.title}>Homeworks 7</p>
-			<HW7/>
-			<p className={hw.title}>Homeworks 8</p>
-			<HW8/>
+			<p >Junior_Plus</p>
 		</div>
 	);
 }

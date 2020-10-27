@@ -1,0 +1,26 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid white;
+  min-height: 260px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  min-width: 185px;
+}
+
+.title {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  text-transform: uppercase;
+}
