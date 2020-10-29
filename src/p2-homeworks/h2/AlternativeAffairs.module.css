@@ -6,13 +6,15 @@
 }
 
 
-input {
-  flex-grow: 1;
+.inputHw2 {
+  width: 373px;
   outline: none;
   border: 3px solid paleturquoise;
   cursor: pointer;
   background-color: #181828;
   color: white;
+  border-radius: 5px;
+  height: 25px;
 }
 
 

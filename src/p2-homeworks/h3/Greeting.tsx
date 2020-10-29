@@ -1,5 +1,6 @@
 import React, {ChangeEvent} from "react";
 import s from "./Greeting.module.css";
+import './Greeting.css';
 
 type GreetingPropsType = {
 	name: string
@@ -14,7 +15,8 @@ const Greeting: React.FC<GreetingPropsType> = (
 	{name, setNameCallback, addUser, error, totalUsers} // деструктуризация пропсов
 ) => {
 	const inputClass = s.error; // need to fix with (?:)
-	const errorClass = `error ? inputClass : ''`;
+	const defaultClass = s.default;
+	const errorClass = `${error ? inputClass : 'default'}`;
 
 	return (
 		<div>

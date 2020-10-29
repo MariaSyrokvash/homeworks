@@ -2,19 +2,9 @@
   display: flex;
   align-items: center;
   border: 1px solid white;
-  min-width: 175px;
-  min-height: 35px;
+  width: 200px;
+  height: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding-left: 10px;
 }
-
-/*input {*/
-/*  outline: none;*/
-/*  background-color: #181828;*/
-/*  color: white;*/
-/*  min-width: 175px;*/
-/*  min-height: 35px;*/
-/*  margin-bottom: 20px;*/
-/*  border-bottom: 1px solid #08fffa;*/
-/*}*/
