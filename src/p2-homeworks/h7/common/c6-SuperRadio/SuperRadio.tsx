@@ -1,40 +1,49 @@
-import React, {ChangeEvent, InputHTMLAttributes, DetailedHTMLProps} from "react";
-
+import React, {ChangeEvent, InputHTMLAttributes, DetailedHTMLProps} from 'react';
+import './SuperRadio.css';
 type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 
 type SuperRadioPropsType = DefaultRadioPropsType & {
-    options?: any[]
-    onChangeOption?: (option: any) => void
+	options?: string[]
+	onChangeOption?: (option: string) => void
 }
 
 const SuperRadio: React.FC<SuperRadioPropsType> = (
-    {
-        type, name,
-        options, value,
-        onChange, onChangeOption,
-        ...restProps
-    }
+	{
+		type, name,
+		options, value,
+		onChange, onChangeOption,
+		...restProps
+	}
 ) => {
-    const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
-        // onChange, onChangeOption
-    }
+	const onChangeCallback = (event: ChangeEvent<HTMLInputElement>) => {
+		// onChange, onChangeOption
+    // const currentValue = event.target.value;
+    console.log(event.target.checked)
+    onChangeOption && onChangeOption(event.currentTarget.value)
 
 
-    const mappedOptions: any[] = options ? options.map((o, i) => ( // map options with key
-        <label key={name + "-" + i}>
-            <input
-                type={"radio"}
-                // name, checked, value, onChange
-            />
-            {o}
-        </label>
-    )) : [];
+	}
+	console.log(value)
+  // name, checked, value, onChange
+	const mappedOptions = options ? options.map((o, i) => (
+		<label className='label' key={name + '-' + i} >
+			<input
+				type={name}
+				value={o}
+				name={o}
+        checked={o === value}
+				onChange={onChangeCallback}
+				className='option-input radio'
+				/>
+			{o}
+		</label>
+	)) : [];
 
-    return (
-        <>
-            {mappedOptions}
-        </>
-    );
+	return (
+		<div className='wrap'>
+			{mappedOptions}
+		</div>
+	);
 }
 
 export default SuperRadio;
