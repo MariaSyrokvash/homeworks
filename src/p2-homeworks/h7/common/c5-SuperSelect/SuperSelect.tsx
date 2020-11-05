@@ -16,7 +16,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
 	}
 ) => {
 
-	const mappedOptions: JSX.Element[] | undefined = options?.map((option, index) => {
+	const mappedOptions = options?.map((option, index) => {
 		return <option key={index} value={option}>{option}</option>
 	})
 
