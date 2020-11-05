@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/HW7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.466a44de56bc4bd05e3ebfc8cdab8c91.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.c4f623c5.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.c4f623c5.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.15e38625.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.15e38625.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.15e38625.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a31c6cf3.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a31c6cf3.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/HW6.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h6/common/c4-SuperEditableSpan/SuperEditableSpan.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/HW7.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/HW7.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect/SuperSelect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,9 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio" />
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect" />
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h7" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h3" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h5" />
-      <recent name="$PROJECT_DIR$/src/p2-homeworks/h1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -109,10 +126,11 @@
       <screen x="0" y="22" width="1440" height="798" />
     </state>
     <state x="412" y="176" width="615" height="490" key="find.popup/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603745700650" />
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1604004011427">
-      <screen x="0" y="22" width="1440" height="798" />
+    <state x="385" y="144" width="670" height="679" key="search.everywhere.popup" timestamp="1604609722944">
+      <screen x="0" y="22" width="1440" height="801" />
     </state>
     <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1604004011427" />
+    <state x="385" y="144" width="670" height="679" key="search.everywhere.popup/0.22.1440.801/1440.-964.2048.1058@0.22.1440.801" timestamp="1604609722944" />
     <state x="450" y="270" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603804644298">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
