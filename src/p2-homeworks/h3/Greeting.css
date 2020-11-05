@@ -1,0 +1,9 @@
+
+.default {
+    background-color: #181828;
+    height: 25px;
+    border-radius: 5px;
+    flex-grow: 1;
+    padding: 4px 0;
+    border: 1px solid white;
+}

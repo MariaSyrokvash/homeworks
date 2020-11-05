@@ -27,6 +27,7 @@ function AlternativeAffairs(props: AlternativeAffairs) {
             <input autoFocus={true}
                    value={newAffairTitle}
                    onChange={onChangeInputHandler}
+                   className={alt.inputHw2}
             />
             <button onClick={onClickHandler}>Add</button>
         </div>

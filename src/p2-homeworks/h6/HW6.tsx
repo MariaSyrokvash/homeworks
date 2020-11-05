@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import SuperEditableSpan from "./common/c4-SuperEditableSpan/SuperEditableSpan";
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 import {restoreState, saveState} from "./localStorage/localStorage";
+import z from './HW6.module.css';
 
 function HW6() {
     const [value, setValue] = useState<string>("");
@@ -10,13 +11,14 @@ function HW6() {
         saveState<string>("editable-span-value", value);
     };
     const restore = () => {
-        // setValue();
+      const currentValue = restoreState("editable-span-value", value)
+      setValue(currentValue);
     };
 
     return (
-        <div>
+        <div className={z.box}>
             <hr/>
-            homeworks 6
+          <p className={z.title}>Homeworks 6</p>
 
             {/*should work (должно работать)*/}
             <div>
@@ -26,13 +28,16 @@ function HW6() {
                     spanProps={{children: value ? undefined : "enter text..."}}
                 />
             </div>
+
+          <div className={z.wrapper}>
             <SuperButton onClick={save}>save</SuperButton>
             <SuperButton onClick={restore}>restore</SuperButton>
+          </div>
 
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperEditableSpan/>*/}
-            <hr/>
+            {/*<hr/>*/}
+            {/*/!*для личного творчества, могу проверить*!/*/}
+            {/*/!*<AlternativeSuperEditableSpan/>*!/*/}
+            {/*<hr/>*/}
         </div>
     );
 }

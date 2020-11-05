@@ -2,7 +2,7 @@ import React from "react";
 
 function AlternativeSuperEditableSpan() {
     return (
-        <input/>
+        <input />
     );
 }
 

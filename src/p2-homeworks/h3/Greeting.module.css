@@ -1,14 +1,16 @@
-.someClass {
-
-}
 
 .error {
     border: 1px solid red;
+    background-color: #181828;
+    height: 25px;
+    border-radius: 5px;
+    flex-grow: 1;
+    padding: 4px 0;
 }
 
 .text {
     font-size: 15px;
-    color: crimson;
+    color: red;
 }
 
 .btn {

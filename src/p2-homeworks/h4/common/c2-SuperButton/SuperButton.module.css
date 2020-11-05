@@ -1,5 +1,20 @@
 .default {
-    background-color: greenyellow;
+    min-width: 85px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: #181828;
+    cursor: pointer;
+}
+
+.default:hover {
+    opacity: 0.7;
+}
+
+.default:active {
+    opacity: 1;
+    color: #08ffff;
+    border: 1px solid #08ffff;
 }
 
 .red {

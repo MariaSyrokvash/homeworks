@@ -1,14 +1,24 @@
 .superInput {
-    padding:10px;
-    border:0;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 25px;
+    width: 200px;
+    border: 1px solid white;
+    box-shadow: 0px 5px 8px #888888;
+    background-color: #181828;
+    font-size: 16px;
+    padding-left: 10px;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: crimson;
+    border: 3px solid lightcoral;
+    background: lightgrey;
+    height: 25px;
+    width: 200px;
+    margin-bottom: 10px;
 }
 
 .error {
-    color: crimson;
+    color: lightgrey;
 }
