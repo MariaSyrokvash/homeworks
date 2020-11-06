@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +38,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -123,7 +120,7 @@
       <workItem from="1603825774533" duration="8492000" />
       <workItem from="1603892496850" duration="139000" />
       <workItem from="1604003721874" duration="7263000" />
-      <workItem from="1604614768236" duration="7129000" />
+      <workItem from="1604614768236" duration="7461000" />
     </task>
     <servers />
   </component>
@@ -135,22 +132,22 @@
       <screen x="0" y="22" width="1440" height="798" />
     </state>
     <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603739489406" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1603716905337">
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1604626823016">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603716905337" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1603716905336">
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1604626823016" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1604626823015">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603716905336" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1603716905335">
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1604626823015" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1604626823014">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603716905335" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1603716905337">
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1604626823014" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1604626823015">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603716905337" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1604626823015" />
     <state x="476" y="130" key="RollbackChangesDialog" timestamp="1603830062928">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
