@@ -1,13 +1,13 @@
 import {ObjStateType} from './tests/homeWorkReducer.test';
 
 type SortUpActionType = {
-	type: 'sort_up'
-	payload: string
+	type: 'sort'
+	payload: 'up'
 }
 
 type SortDownActionType = {
-	type: 'sort_down'
-	payload: string
+	type: 'sort'
+	payload: 'down'
 }
 
 type SortAgeActionType = {
@@ -16,44 +16,49 @@ type SortAgeActionType = {
 }
 
 export const SortUpAC = (): SortUpActionType => {
-  return { type: 'sort_up', payload: 'up'}
+	return {type: 'sort', payload: 'up'}
 }
 
 export const SortDownAC = (): SortDownActionType => {
-  return { type: 'sort_down', payload: 'down'}
+	return {type: 'sort', payload: 'down'}
 }
 
 export const SortAgeAC = (): SortAgeActionType => {
-  return { type: 'check_age', payload: 18}
+	return {type: 'check_age', payload: 18}
 }
 
 type ActionsType = SortUpActionType | SortDownActionType | SortAgeActionType
 
 export const homeWorkReducer = (state: ObjStateType[], action: ActionsType): ObjStateType[] => {
 	switch (action.type) {
-		case 'sort_up': {
-			const newArray = state.sort((a: ObjStateType, b: ObjStateType) => {
-				if (a.name > b.name) {
-					return 1;
-				}
-				if (a.name < b.name) {
-					return -1;
-				}
-				return 0;
-			});
-			return newArray
+		case 'sort': {
+			if (action.payload === 'up') {
+				state.sort((a: ObjStateType, b: ObjStateType) => {
+					if (a.name > b.name) {
+						return 1;
+					}
+					if (a.name < b.name) {
+						return -1;
+					}
+					return 0;
+				});
+				return [...state]
+			}
 		}
-		case 'sort_down': {
-			const newArray = state.sort((a: ObjStateType, b: ObjStateType) => {
-				if (a.name < b.name) {
-					return 1;
-				}
-				if (a.name > b.name) {
-					return -1;
-				}
-				return 0;
-			});
-			return newArray
+		case 'sort': {
+			if (action.payload === 'down') {
+				state.sort((a: ObjStateType, b: ObjStateType) => {
+					if (a.name < b.name) {
+						return 1;
+					}
+					if (a.name > b.name) {
+						return -1;
+					}
+					return 0;
+				});
+				return [...state]
+			}
+
 		}
 		case 'check_age': {
 			return state.filter(person => person.age > action.payload)

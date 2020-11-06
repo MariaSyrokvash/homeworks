@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import './HW8.css';
-import {homeWorkReducer} from "./bll/homeWorkReducer";
+import {homeWorkReducer, SortAgeAC, SortDownAC, SortUpAC} from './bll/homeWorkReducer';
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 const initialPeople = [
@@ -14,7 +14,7 @@ const initialPeople = [
 
 function HW8() {
     const [people, setPeople] = useState(initialPeople);
-
+  console.log(people)
 
     const finalPeople = people.map(person => (
         <div key={person._id} className='inner'>
@@ -23,9 +23,9 @@ function HW8() {
         </div>
     ))
 
-    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: "sort_up", payload: "up"}))
-    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: "sort_down", payload: "down"}))
-    const sortAge = () => setPeople(homeWorkReducer(initialPeople, {type: "check_age", payload: 18}))
+    const sortUp = () => setPeople(homeWorkReducer(initialPeople, SortUpAC()))
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, SortDownAC()))
+    const sortAge = () => setPeople(homeWorkReducer(initialPeople, SortAgeAC()))
 
     return (
         <div className='box'>

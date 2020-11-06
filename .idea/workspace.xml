@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/homeWorkReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <workItem from="1603825774533" duration="8492000" />
       <workItem from="1603892496850" duration="139000" />
       <workItem from="1604003721874" duration="7263000" />
-      <workItem from="1604614768236" duration="4880000" />
+      <workItem from="1604614768236" duration="6766000" />
     </task>
     <servers />
   </component>
