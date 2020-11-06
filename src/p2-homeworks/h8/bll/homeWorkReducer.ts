@@ -1,13 +1,64 @@
-export const homeWorkReducer = (state: any, action: any): any => {
-    switch (action.type) {
-        case "sort": {
+import {ObjStateType} from './tests/homeWorkReducer.test';
 
-            return state
-        }
-        case "check": {
+type SortUpActionType = {
+	type: 'sort_up'
+	payload: string
+}
 
-            return state
-        }
-        default: return state
-    }
+type SortDownActionType = {
+	type: 'sort_down'
+	payload: string
+}
+
+type SortAgeActionType = {
+	type: 'check_age'
+	payload: number
+}
+
+export const SortUpAC = (): SortUpActionType => {
+  return { type: 'sort_up', payload: 'up'}
+}
+
+export const SortDownAC = (): SortDownActionType => {
+  return { type: 'sort_down', payload: 'down'}
+}
+
+export const SortAgeAC = (): SortAgeActionType => {
+  return { type: 'check_age', payload: 18}
+}
+
+type ActionsType = SortUpActionType | SortDownActionType | SortAgeActionType
+
+export const homeWorkReducer = (state: ObjStateType[], action: ActionsType): ObjStateType[] => {
+	switch (action.type) {
+		case 'sort_up': {
+			const newArray = state.sort((a: ObjStateType, b: ObjStateType) => {
+				if (a.name > b.name) {
+					return 1;
+				}
+				if (a.name < b.name) {
+					return -1;
+				}
+				return 0;
+			});
+			return newArray
+		}
+		case 'sort_down': {
+			const newArray = state.sort((a: ObjStateType, b: ObjStateType) => {
+				if (a.name < b.name) {
+					return 1;
+				}
+				if (a.name > b.name) {
+					return -1;
+				}
+				return 0;
+			});
+			return newArray
+		}
+		case 'check_age': {
+			return state.filter(person => person.age > action.payload)
+		}
+		default:
+			return state
+	}
 };
