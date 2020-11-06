@@ -32,16 +32,12 @@ function HW8() {
             <hr/>
             <p className='title'>Homeworks 8</p>
 
-            {/*should work (должно работать)*/}
-
             {finalPeople}
             <div className='wrapper-btn'>
-              <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-              <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
-              <div><SuperButton onClick={sortAge}>Age more than 18 year</SuperButton></div>
+              <div><SuperButton onClick={sortUp} className='btn'>sort up</SuperButton></div>
+              <div><SuperButton onClick={sortDown} className='btn' >sort down</SuperButton></div>
+              <div><SuperButton onClick={sortAge} className='btn'>Age more than 18 year</SuperButton></div>
             </div>
-
-
 
 
             <hr/>

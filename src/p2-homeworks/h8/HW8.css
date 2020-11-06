@@ -31,3 +31,9 @@
   justify-content: space-between;
   width: 400px;
 }
+
+.btn:focus {
+  color: #181828;
+  background-color: #08ffff;
+  border: 1px solid #181828;
+}
