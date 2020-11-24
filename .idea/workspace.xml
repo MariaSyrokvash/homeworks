@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/homeWorkReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h9/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +39,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h9" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -48,11 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h9" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h8" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h7/common/c5-SuperSelect" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h7" />
-      <recent name="$PROJECT_DIR$/src/p2-homeworks/h3" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.sort name down">
@@ -126,7 +132,7 @@
       <workItem from="1604614768236" duration="8014000" />
       <workItem from="1605101335520" duration="797000" />
       <workItem from="1605105700842" duration="396000" />
-      <workItem from="1606245044616" duration="255000" />
+      <workItem from="1606245044616" duration="5247000" />
     </task>
     <servers />
   </component>
@@ -134,6 +140,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="577" y="320" key="#ESLint" timestamp="1606246074746">
+      <screen x="0" y="22" width="1440" height="798" />
+    </state>
+    <state x="577" y="320" key="#ESLint/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606246074746" />
     <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603739489406">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
