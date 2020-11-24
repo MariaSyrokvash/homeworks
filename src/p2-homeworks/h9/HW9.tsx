@@ -1,11 +1,12 @@
 import React from "react";
 import Clock from "./Clock";
+import hw9 from './HW9.module.css';
 
 function HW9() {
     return (
-        <div>
+        <div className={hw9.wrap}>
             <hr/>
-            homeworks 9
+            <p className={hw9.title}>Homeworks 9</p>
 
             {/*should work (должно работать)*/}
             <Clock/>
