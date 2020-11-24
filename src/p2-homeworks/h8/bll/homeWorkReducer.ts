@@ -43,10 +43,7 @@ export const homeWorkReducer = (state: ObjStateType[], action: ActionsType): Obj
 					return 0;
 				});
 				return [...state]
-			}
-		}
-		case 'sort': {
-			if (action.payload === 'down') {
+			} else if (action.payload === 'down') {
 				state.sort((a: ObjStateType, b: ObjStateType) => {
 					if (a.name < b.name) {
 						return 1;
@@ -58,7 +55,6 @@ export const homeWorkReducer = (state: ObjStateType[], action: ActionsType): Obj
 				});
 				return [...state]
 			}
-
 		}
 		case 'check_age': {
 			return state.filter(person => person.age > action.payload)
