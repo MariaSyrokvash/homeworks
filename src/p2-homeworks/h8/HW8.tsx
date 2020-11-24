@@ -14,7 +14,6 @@ const initialPeople = [
 
 function HW8() {
     const [people, setPeople] = useState(initialPeople);
-  console.log(people)
 
     const finalPeople = people.map(person => (
         <div key={person._id} className='inner'>
