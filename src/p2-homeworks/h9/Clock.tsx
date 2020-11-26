@@ -39,11 +39,8 @@ function Clock() {
 			>
 				{stringTime}
 			</div>
-
 			{show && (
-				<div className={hw9.date}>
-					{stringDate}
-				</div>
+				<div className={`${hw9.date} ${hw9.slide_fwd_right}`}> {stringDate} </div>
 			)}
 			<div className={hw9.container}>
 				<SuperButton onClick={start}>start</SuperButton>
