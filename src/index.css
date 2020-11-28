@@ -12,9 +12,9 @@ code {
     monospace;
 }
 
-* {
-  color: white;
-}
+/** {*/
+/*  color: white;*/
+/*}*/
 
 hr {
   opacity: 0.1;
