@@ -57,10 +57,6 @@ function HW11() {
 				/>
 			</div>
 
-			<hr/>
-			{/*для личного творчества, могу проверить*/}
-			{/*<AlternativeSuperRange/>*/}
-			{/*<AlternativeSuperDoubleRange/>*/}
 
 			<div className={classes.root}>
 				<p className={hw11.start}>{0}</p>
