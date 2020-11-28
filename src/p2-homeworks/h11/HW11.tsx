@@ -50,8 +50,6 @@ function HW11() {
 
 			<div className={s.range_box}>
 				<SuperDoubleRange
-					value1={value1}
-					value2={value2}
 					doubleRange={doubleRange}
 					// сделать так чтоб value1 и value2 изменялось
 				/>

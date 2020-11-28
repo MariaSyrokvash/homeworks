@@ -12,15 +12,11 @@ const Range = createSliderWithTooltip(Slider.Range);
 type SuperDoubleRangePropsType = {
 	onChangeRange?: (value: [number, number]) => void
 	value?: [number, number]
-	value1: number
-	value2: number
 	doubleRange: doubleRange
 }
 
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
 	{
-		value1,
-		value2,
 		doubleRange,
 		onChangeRange, value,
 		// min, max, step, disable, ...
