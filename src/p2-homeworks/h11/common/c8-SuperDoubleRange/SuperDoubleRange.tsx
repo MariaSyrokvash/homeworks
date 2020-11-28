@@ -37,8 +37,8 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
 						0: `0$`,
 						100: `100$`
 					}}
-					min={value1}
-					max={value2}
+					min={0}
+					max={100}
 					defaultValue={doubleRange}
 					tipFormatter={value => `${value}$`}
 					tipProps={{

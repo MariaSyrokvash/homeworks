@@ -63,14 +63,14 @@ function HW11() {
 			{/*<AlternativeSuperDoubleRange/>*/}
 
 			<div className={classes.root}>
-				<p className={hw11.start}>{value1}</p>
+				<p className={hw11.start}>{0}</p>
 				<Slider
 					value={value3}
 					onChange={handleChange}
 					valueLabelDisplay="auto"
 					aria-labelledby="range-slider"
 				/>
-				<p className={hw11.end}>{value2}</p>
+				<p className={hw11.end}>{100}</p>
 			</div>
 			<hr/>
 		</div>
