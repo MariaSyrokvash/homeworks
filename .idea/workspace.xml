@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/slider_materialUI.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h9/Clock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/Clock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h9/HW9.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h4/common/c2-SuperButton/SuperButton.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -52,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange" />
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h11" />
       <recent name="$PROJECT_DIR$/src/common" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h10" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h9" />
-      <recent name="$PROJECT_DIR$/src/p2-homeworks/h8" />
-      <recent name="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio" />
     </key>
   </component>
   <component name="RunManager" selected="Jest.sort name down">
@@ -132,6 +143,11 @@
       <workItem from="1605105700842" duration="396000" />
       <workItem from="1606245044616" duration="5247000" />
       <workItem from="1606404966654" duration="3077000" />
+      <workItem from="1606523814740" duration="1683000" />
+      <workItem from="1606585320006" duration="58000" />
+      <workItem from="1606585380479" duration="1419000" />
+      <workItem from="1606587627636" duration="1608000" />
+      <workItem from="1606593423804" duration="1068000" />
     </task>
     <servers />
   </component>
@@ -147,6 +163,10 @@
       <screen x="0" y="22" width="1440" height="798" />
     </state>
     <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603739489406" />
+    <state x="368" y="206" key="EditFileWatcherDialog" timestamp="1606585122313">
+      <screen x="0" y="22" width="1440" height="798" />
+    </state>
+    <state x="368" y="206" key="EditFileWatcherDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606585122313" />
     <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1606257146210">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
@@ -176,9 +196,9 @@
     </state>
     <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1604004011427" />
     <state x="385" y="144" width="670" height="679" key="search.everywhere.popup/0.22.1440.801/1440.-964.2048.1058@0.22.1440.801" timestamp="1604609722944" />
-    <state x="450" y="270" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1603804644298">
+    <state x="450" y="270" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1606585394051">
       <screen x="0" y="22" width="1440" height="798" />
     </state>
-    <state x="450" y="270" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603804644298" />
+    <state x="450" y="270" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606585394051" />
   </component>
 </project>
