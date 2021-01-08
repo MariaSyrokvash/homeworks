@@ -1,23 +1,46 @@
 .dark {
-    background: dimgrey;
+  background: #181828;
 }
 
 .dark-text {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .red {
-    background: lightcoral;
+  background: lightcoral;
 }
 
 .red-text {
-    color: aqua;
+  color: aqua;
 }
 
-.some {
-    background: lightgreen;
+.green {
+  background: lightgreen;
 }
 
 .some-text {
-    color: darkslateblue;
+  color: darkslateblue;
+}
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid white;
+  min-height: 260px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 400px;
 }
