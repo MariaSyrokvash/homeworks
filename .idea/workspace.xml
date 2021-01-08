@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +135,7 @@
       <workItem from="1606585380479" duration="1419000" />
       <workItem from="1606587627636" duration="1608000" />
       <workItem from="1606593423804" duration="1068000" />
+      <workItem from="1606735505174" duration="65000" />
     </task>
     <servers />
   </component>
