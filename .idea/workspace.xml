@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/themeReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -58,7 +62,20 @@
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h9" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.sort name down">
+  <component name="RunManager" selected="npm.npm start">
+    <configuration type="JavaScriptTestRunnerJest" temporary="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" />
+      <test-names>
+        <test-name value="sort name down" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="check age more than 18" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -69,19 +86,6 @@
       <test-file value="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" />
       <test-names>
         <test-name value="check age more than 18" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="sort name down" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" />
-      <test-names>
-        <test-name value="sort name down" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -98,9 +102,23 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.check age more than 18" />
+      <item itemvalue="Jest." />
+      <item itemvalue="Jest.sort name up" />
+      <item itemvalue="npm.npm start" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.sort name down" />
+        <item itemvalue="Jest." />
         <item itemvalue="Jest.check age more than 18" />
         <item itemvalue="Jest.sort name up" />
       </list>
@@ -136,57 +154,13 @@
       <workItem from="1606585380479" duration="1419000" />
       <workItem from="1606587627636" duration="1608000" />
       <workItem from="1606593423804" duration="1068000" />
+      <workItem from="1606735505174" duration="65000" />
+      <workItem from="1610138113459" duration="359000" />
+      <workItem from="1610138480124" duration="4872000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="577" y="320" key="#ESLint" timestamp="1606246074746">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state x="577" y="320" key="#ESLint/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606246074746" />
-    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603739489406">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603739489406" />
-    <state x="368" y="206" key="EditFileWatcherDialog" timestamp="1606585122313">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state x="368" y="206" key="EditFileWatcherDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606585122313" />
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1606257146210">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606257146210" />
-    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1606257146207">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.center/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606257146207" />
-    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1606257146204">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.left/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606257146204" />
-    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1606257146208">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state width="1419" height="204" key="GridCell.Tab.0.right/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606257146208" />
-    <state x="476" y="130" key="RollbackChangesDialog" timestamp="1603830062928">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state x="476" y="130" key="RollbackChangesDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603830062928" />
-    <state x="412" y="176" width="615" height="490" key="find.popup" timestamp="1603745700650">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state x="412" y="176" width="615" height="490" key="find.popup/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1603745700650" />
-    <state x="385" y="144" width="670" height="679" key="search.everywhere.popup" timestamp="1604609722944">
-      <screen x="0" y="22" width="1440" height="801" />
-    </state>
-    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1604004011427" />
-    <state x="385" y="144" width="670" height="679" key="search.everywhere.popup/0.22.1440.801/1440.-964.2048.1058@0.22.1440.801" timestamp="1604609722944" />
-    <state x="450" y="270" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1606585394051">
-      <screen x="0" y="22" width="1440" height="798" />
-    </state>
-    <state x="450" y="270" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.22.1440.798/1440.-964.2048.1058@0.22.1440.798" timestamp="1606585394051" />
   </component>
 </project>
