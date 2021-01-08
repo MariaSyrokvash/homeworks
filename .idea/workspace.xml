@@ -112,13 +112,11 @@
     </configuration>
     <list>
       <item itemvalue="Jest.check age more than 18" />
-      <item itemvalue="Jest." />
       <item itemvalue="Jest.sort name up" />
       <item itemvalue="npm.npm start" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest." />
         <item itemvalue="Jest.check age more than 18" />
         <item itemvalue="Jest.sort name up" />
       </list>
