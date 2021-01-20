@@ -2,16 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be58464-12da-4ce7-94fc-39f188aeab7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/HW13.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/Request/Request.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/Request/Request.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h13/Request/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Error/Error404.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Error/error.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/HW12.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/ReduxStoreProviderDecorator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior_Plus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior_Plus.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/PreJunior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p1-main/m1-ui/u1-app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/themeReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h12/HW12.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h12/bll/themeReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h12/bll/themeReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/Routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Error404.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/error.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,7 @@
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h13/Request" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h12" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -59,14 +67,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h12" />
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h5/pages" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h13/Request" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks" />
       <recent name="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange" />
-      <recent name="$PROJECT_DIR$/src/p2-homeworks/h11" />
-      <recent name="$PROJECT_DIR$/src/common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/p2-homeworks/h12/bll" />
+      <recent name="$PROJECT_DIR$/src/stories" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.npm run start">
     <configuration type="JavaScriptTestRunnerJest" temporary="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -106,7 +118,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="npm start" type="js.build_tools.npm">
+    <configuration name="npm run start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts />
@@ -114,13 +126,37 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Jest.check age more than 18" />
       <item itemvalue="Jest.sort name up" />
-      <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.npm run start" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.storybook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.check age more than 18" />
         <item itemvalue="Jest.sort name up" />
       </list>
@@ -159,6 +195,10 @@
       <workItem from="1606735505174" duration="65000" />
       <workItem from="1610138113459" duration="359000" />
       <workItem from="1610138480124" duration="4872000" />
+      <workItem from="1610227868299" duration="129000" />
+      <workItem from="1611092404291" duration="840000" />
+      <workItem from="1611093263384" duration="4627000" />
+      <workItem from="1611135093601" duration="1305000" />
     </task>
     <servers />
   </component>

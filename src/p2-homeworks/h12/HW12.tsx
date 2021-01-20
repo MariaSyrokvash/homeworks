@@ -3,8 +3,8 @@ import s from './HW12.module.css';
 import SuperSelect from '../h7/common/c5-SuperSelect/SuperSelect';
 import '../h7/common/c5-SuperSelect/SuperSelect.css';
 import {useDispatch, useSelector} from 'react-redux';
-import {setThemeAC} from '../h10/bll/themeReducer';
 import {AppStoreType} from '../h10/bll/store';
+import {setThemeAC} from './bll/themeReducer';
 
 const themes = ['dark', 'red', 'green'];
 

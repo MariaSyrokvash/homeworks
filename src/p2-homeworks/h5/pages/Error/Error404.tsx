@@ -1,9 +1,9 @@
 import React from "react";
 import er from './error.module.css';
-import s from './../../../p1-main/m1-ui/u1-app/App.module.css'
+import s from './../../../../p1-main/m1-ui/u1-app/App.module.css'
 import {NavLink} from 'react-router-dom';
 
-function Error404() {
+export const Error404 = () => {
     return (
         <div className={`${er.wrap} ${s.App}`} >
 
@@ -42,5 +42,3 @@ function Error404() {
         </div>
     );
 }
-
-export default Error404;

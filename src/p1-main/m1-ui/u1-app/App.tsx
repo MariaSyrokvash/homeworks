@@ -10,8 +10,8 @@ import HW8 from '../../../p2-homeworks/h8/HW8';
 import HW9 from '../../../p2-homeworks/h9/HW9';
 import HW10 from '../../../p2-homeworks/h10/HW10';
 import {Provider} from 'react-redux';
-import store from '../../../p2-homeworks/h10/bll/store';
 import HW12 from '../../../p2-homeworks/h12/HW12';
+import {store} from '../../../p2-homeworks/h10/bll/store';
 
 function App() {
 	return (

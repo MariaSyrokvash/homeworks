@@ -1,10 +1,10 @@
 import React from 'react';
 import {Switch, Route, Redirect, HashRouter} from 'react-router-dom';
-import Error404 from './pages/Error404';
 import Junior from './pages/Junior';
 import PreJunior from './pages/PreJunior';
 import Junior_Plus from './pages/Junior_Plus';
 import NavBar from './NavBar';
+import {Error404} from './pages/Error/Error404';
 
 
 export const PATH = {
